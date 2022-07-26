@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+
+body {
+  background: #b5d5bd;
+  max-width: 1500px;
+  margin: 0 auto;
+  font-family: 'Poppins', sans-serif;
+  box-sizing: border-box;
+}
+
+main {
+  display: flex;
+  justify-content: space-between;
+  min-height: 100vh;
+  width: 100%;
+}
+/* p{
+
+} */
+a{
+  text-decoration: none;
+  color: black;
+}
+.menu{
+  margin-left: 30px;
+}
+hr{
+  width: 70%;
+  margin-left: 30px;
+  opacity: 0.3;
+}
+.dashboard{
+  margin-left: 30px;
+}
+.copyright{
+  margin-left: 30px;
+}
+.drawer_icon {
+  font-size: 35px;
+  position: absolute;
+  left: -12px;
+  display: none;
+  top: 25px;
+}
+.sidebar {
+  width: 25%;
+  background: linear-gradient(#1ee983, #4827b0);
+  transition: all 0.5s ease;
+  overflow: hidden;
+  box-shadow: 0px 0px 60px #42ca16cb;
+}
+
+.content {
+  width: 75%;
+  padding: 20px 60px;
+  /* box-sizing: border-box; */
+}
+.content header {
+  height: 70px;
+  display: flex;
+}
+.content header form {
+  width: 20%;
+  position: relative;
+  min-width: 220px;
+}
+.content header form input {
+  width: 100%;
+  border: 0;
+  padding: 14px 25px 14px 5px;
+}
+.content header form button {
+  background: unset;
+  border: unset;
+  position: absolute;
+  top: 13px;
+  right: 0px;
+}
+
+.content header .nav {
+  display: flex;
+  width: 80%;
+  justify-content: space-between;
+  margin-left: 50px;
+  height: 50px;
+  align-items: center;
+}
+header a {
+  margin: 10px 5.5%;
+  font-size: 13px;
+  color: #111;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.content header .nav .account {
+  width: 200px;
+  margin-left: auto;
+  display: flex;
+  font-size: 14px;
+  justify-content: right;
+}
+.music {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.music_list {
+  display: flex;
+}
+
+.music_list img {
+  width: 200px;
+  margin-right: 10px;
+}
+.music button{
+  background-color: #1ee983;
+  border: none;
+  padding: 10px;
+  /* font-size: ; */
+}
+
+.song_cat {
+  text-align: center;
+}
+
+@media screen and (max-width: 1166px) {
+  .sidebar {
+    display: none;
+    width: 0%;
+  }
+  .drawer_icon {
+    display: block;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .content {
+    padding: 20px 30px;
+    width: 100%;
+  }
+    .content header form input {
+      margin-left: 50px;
+    }
+    .nav{
+      margin-left: 20px;
+    }
+  
+    .content header form button {
+      right: -70px;
+    }
+}
+
+
+@media screen and (max-width: 880px) {
+  header a {
+    display: none;
+  }
+  .sidebar {
+    display: none;
+    width: 0%;
+  }
+}
+
+@media screen and (max-width: 510px) {
+  header {
+    flex-direction: column-reverse;
+    height: auto !important;
+  }
+  header form {
+    width: 100% !important;
+  }
+  header .nav {
+    width: 100% !important;
+    margin-left: 0 !important;
+  }
+  header .nav .account {
+    width: 100% !important;
+  }
+  .drawer_icon {
+    left: 25px;
+    margin-left: 0px;
+  }
+    .content header form input {
+      width: 91%;
+      margin-left: 0px;
+      margin-right: 0px;
+    }
+  
+    .content header form button {
+      right: 20px;
+    }
+    .nav {
+      margin-left: 20px;
+    }
+    .music_list {
+      display: flex;
+      flex-direction: column;
+    }
+    
+    .music_list img {
+      width: 50px;
+      margin-bottom: 10px;
+    }
+    .music button{
+      display: none;
+    }
+    .song_cat{
+      display: flex;
+      align-items: center;
+    }
+    .song_cat h4{
+      display: flex;
+    }
+    .song_cat {
+      font-size: 12px;
+    }
+
+
+}
+
