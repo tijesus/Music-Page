@@ -11,13 +11,13 @@
     <main>
       <div class="sidebar">
         <div class="menu">
-          <a href="#"><h3>MENU</h3></a>
+          <a href="#"><h3 id="top">MENU</h3></a>
           <a href="#"><p>Profile</p></a>
-          <a href="#"><p>Home</p></a>
-          <a href="#"><p>Trending</p></a>
-          <a href="#"><p>Top Song</p></a>
-          <a href="#"><p>Top Albums</p></a>
-          <a href="#"><p>Playlists</p></a>
+          <a href="index.html"><p>Home</p></a>
+          <a href="trend.html"><p>Trending</p></a>
+          <a href="song.html"><p>Top Song</p></a>
+          <a href="album.html"><p>Top Albums</p></a>
+          <!-- <a href="#"><p>Playlists</p></a> -->
           <a href="#"><p>Following</p></a>
         </div>
         <hr />
@@ -30,7 +30,15 @@
           <a href="#"><p>App settings</p></a>
         </div>
         <br />
+        <br />
         <p class="copyright">&copy;2022 Tijesus_Charis</p>
+        <br />
+        <div class="back_up">
+          <a href="#top"
+            ><img src="./Up Arrow.svg" alt="top arrow" />
+            <p>Back to top</p></a
+          >
+        </div>
       </div>
       <div class="content">
         <header>
@@ -67,7 +75,9 @@
           <!-------Music list section-------->
           <div class="music_list">
             <div class="song_cat">
-              <a href=""><img src="./songs/bandana.jpg" alt="bandana" /></a>
+              <a href="bandana.html"
+                ><img src="./songs/bandana.jpg" alt="bandana"
+              /></a>
               <div>
                 <h4>Bandana</h4>
                 <p>by <span>Fireboy</span> <i>ft</i> <span>Asake</span></p>
@@ -104,23 +114,26 @@
               </div>
             </div>
             <div class="song_cat">
-              <a href=""><img src="./songs/boyalone.jpg" alt="boyalone" /></a>
+              <a href=""><img src="./songs/woman.jpg" alt="boyalone" /></a>
               <div>
-                <h4>Boy Alone</h4>
-                <p>by <span>Omalay</span> <i>ft</i> <span>Asake</span></p>
+                <h4>Woman</h4>
+                <p>by <span>Omalay</span></p>
               </div>
             </div>
             <div class="song_cat">
               <a href=""><img src="./songs/overdose.jpg" alt="overdose" /></a>
               <div>
-                <h4>Boy Alone</h4>
-                <p>by <span>Omalay</span> <i>ft</i> <span>Asake</span></p>
+                <h4>Overdose</h4>
+                <p>
+                  by <span>Ladipoe</span> <i>ft</i> <span>Ayra Star</span>
+                  <i>...</i>
+                </p>
               </div>
             </div>
             <div class="song_cat">
               <a href=""><img src="./songs/palazzo.jpg" alt="palazzo" /></a>
               <div>
-                <h4>Boy Alone</h4>
+                <h4>Palazzo</h4>
                 <p>by <span>Dj Spinoff</span> <i>ft</i> <span>Asake</span></p>
               </div>
             </div>
@@ -135,7 +148,7 @@
           <!------------Trending section--------------->
 
           <div class="music">
-            <h3>Trending</h3>
+            <h3 id="trend">Trending</h3>
             <div>
               <button><img src="./arrow-left.svg" alt="arrow-left" /></button>
               <button><img src="./arrow-right.svg" alt="arrow-right" /></button>
@@ -144,9 +157,9 @@
           <!-------Trending list section-------->
           <div class="music_list">
             <div class="song_cat">
-              <a href=""><img src="./songs/boyalone.jpg" alt="boyalone" /></a>
+              <a href=""><img src="./songs/woman.jpg" alt="boyalone" /></a>
               <div>
-                <h4>Boy Alone</h4>
+                <h4>Woman</h4>
                 <p>by <span>Omalay</span> <i>ft</i> <span>Asake</span></p>
               </div>
             </div>
@@ -168,7 +181,10 @@
               <a href=""><img src="./songs/overdose.jpg" alt="overdose" /></a>
               <div>
                 <h4>Overdose</h4>
-                <p>by <span>Omalay</span> <i>ft</i> <span>Asake</span></p>
+                <p>
+                  by <span>Ladipoe</span> <i>ft</i> <span>Ayra Star</span>
+                  <i>...</i>
+                </p>
               </div>
             </div>
             <div class="song_cat">
@@ -229,6 +245,23 @@
               </div>
             </div>
             <div class="song_cat">
+              <a href=""><img src="./songs/boyalone.jpg" alt="boyalone" /></a>
+              <div>
+                <h4>Boy Alone</h4>
+                <p>by <span>Omalay</span></p>
+              </div>
+            </div>
+            <div class="song_cat">
+              <a href=""><img src="./songs/overdose.jpg" alt="overdose" /></a>
+              <div>
+                <h4>Overdose</h4>
+                <p>
+                  by <span>Ladipoe</span> <i>ft</i> <span>Ayra Star</span>
+                  <i>...</i>
+                </p>
+              </div>
+            </div>
+            <div class="song_cat">
               <a href=""
                 ><img src="./songs/twice as tall.jpeg" alt="twice as tall"
               /></a>
@@ -259,23 +292,9 @@
               </div>
             </div>
             <div class="song_cat">
-              <a href=""><img src="./songs/boyalone.jpg" alt="boyalone" /></a>
-              <div>
-                <h4>Boy Alone</h4>
-                <p>by <span>Omalay</span> <i>ft</i> <span>Asake</span></p>
-              </div>
-            </div>
-            <div class="song_cat">
-              <a href=""><img src="./songs/overdose.jpg" alt="overdose" /></a>
-              <div>
-                <h4>Boy Alone</h4>
-                <p>by <span>Omalay</span> <i>ft</i> <span>Asake</span></p>
-              </div>
-            </div>
-            <div class="song_cat">
               <a href=""><img src="./songs/palazzo.jpg" alt="palazzo" /></a>
               <div>
-                <h4>Boy Alone</h4>
+                <h4>Palazzo</h4>
                 <p>by <span>Dj Spinoff</span> <i>ft</i> <span>Asake</span></p>
               </div>
             </div>

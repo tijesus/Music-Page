@@ -52,6 +52,15 @@ hr{
   margin-left: 30px;
   color: azure;
 }
+.back_up a{
+  display: flex;
+  margin-left: 30px;
+  color: azure;
+  align-items: center;
+}
+.back_up p{
+  color: azure;
+}
 .drawer_icon {
   font-size: 35px;
   position: absolute;
