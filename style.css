@@ -25,6 +25,12 @@ a{
 .menu{
   margin-left: 30px;
 }
+.menu p{
+  color: azure;
+}
+.menu h3{
+  color: azure;
+}
 hr{
   width: 70%;
   margin-left: 30px;
@@ -32,9 +38,17 @@ hr{
 }
 .dashboard{
   margin-left: 30px;
+  color: azure;
+}
+.dashboard p {
+  color: azure;
+}
+.dashboard h3 {
+  color: azure;
 }
 .copyright{
   margin-left: 30px;
+  color: azure;
 }
 .drawer_icon {
   font-size: 35px;
@@ -116,11 +130,12 @@ header a {
   margin-right: 10px;
 }
 .music button{
-  background-color: #1ee983;
+  background-color: #4827b0;
   border: none;
   padding: 10px;
-  /* font-size: ; */
+  filter:  ;
 }
+
 
 .song_cat {
   text-align: center;
