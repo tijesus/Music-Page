@@ -27,6 +27,7 @@ a{
 }
 .menu p{
   color: azure;
+  opacity: 0.7;
 }
 .menu h3{
   color: azure;
@@ -42,6 +43,7 @@ hr{
 }
 .dashboard p {
   color: azure;
+  opacity: 0.7;
 }
 .dashboard h3 {
   color: azure;
@@ -107,7 +109,17 @@ header a {
   text-decoration: none;
   font-weight: 500;
 }
-
+.profile_pics{
+  background-image: url(./logo.png);
+  background-size: auto;
+  margin-left: 20px;
+  min-height: 40px;
+  min-width: 40px;
+  height: 40px;
+  width: 40px;
+  border-radius: 100%;
+  background: rgb(0, 0, 0);
+}
 .content header .nav .account {
   width: 200px;
   margin-left: auto;
@@ -133,13 +145,11 @@ header a {
   background-color: #4827b0;
   border: none;
   padding: 10px;
-  filter:  ;
+}
+.song_cat p{
+  font-size: 13px;
 }
 
-
-.song_cat {
-  text-align: center;
-}
 
 @media screen and (max-width: 1166px) {
   .sidebar {
