@@ -146,6 +146,10 @@ header a {
   border: none;
   padding: 10px;
 }
+span{
+  color: #4827b0;
+  font-weight: bolder;
+}
 .song_cat p{
   font-size: 13px;
 }
