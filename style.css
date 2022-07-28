@@ -162,6 +162,9 @@ span{
 .song_cat p{
   font-size: 13px;
 }
+.hidden_on_mobile {
+  display: none;
+}
 
 
 @media screen and (max-width: 1166px) {
@@ -261,12 +264,12 @@ span{
       width: 100%;
     }
     .hidden_on_mobile{
-      /* margin-left: 300px; */
+      display: inline;
       border: none;
-      border-radius: 50%;
-      background-color: blue;
+      border-radius: 100%;
+      background-color:#4827b0;
       font-size: 15px;
-      padding: 3px;
+      padding: 4px;
       outline: none;
     }
 
