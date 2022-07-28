@@ -254,6 +254,21 @@ span{
     .song_cat {
       font-size: 12px;
     }
+    .artist_flex{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 100%;
+    }
+    .hidden_on_mobile{
+      /* margin-left: 300px; */
+      border: none;
+      border-radius: 50%;
+      background-color: blue;
+      font-size: 15px;
+      padding: 3px;
+      outline: none;
+    }
 
 
 }
