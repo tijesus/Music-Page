@@ -188,6 +188,9 @@ span {
 .song_cat p {
   font-size: 13px;
 }
+.omalay{
+  display: flex;
+}
 
 
 @media screen and (max-width: 1166px) {
