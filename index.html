@@ -10,34 +10,35 @@
   <body>
     <main>
       <div class="sidebar">
-        <div class="menu">
-          <a href="#"><h3 id="top">MENU</h3></a>
-          <a href="#"><p>Profile</p></a>
-          <a href="index.html"><p>Home</p></a>
-          <a href="trend.html"><p>Trending</p></a>
-          <a href="song.html"><p>Top Song</p></a>
-          <a href="album.html"><p>Top Albums</p></a>
-          <!-- <a href="#"><p>Playlists</p></a> -->
-          <a href="#"><p>Following</p></a>
-        </div>
-        <hr />
-        <div class="dashboard">
-          <a href="#"><h3>Dashboard</h3></a>
-          <a href="#"><p>Messages</p></a>
-          <a href="#"><p>Connection</p></a>
-          <a href="#"><p>Integration</p></a>
-          <a href="#"><p>Account Settings</p></a>
-          <a href="#"><p>App settings</p></a>
-        </div>
-        <br />
-        <br />
-        <p class="copyright">&copy;2022 Tijesus_Charis</p>
-        <br />
-        <div class="back_up">
-          <a href="#top"
-            ><img src="./Up Arrow.svg" alt="top arrow" />
-            <p>Back to top</p></a
-          >
+        <div class="sidebar_fixed">
+          <div class="menu">
+            <a href="#"><h3 id="top">MENU</h3></a>
+            <a href="#"><p>Profile</p></a>
+            <a href="index.html"><p>Home</p></a>
+            <a href="trend.html"><p>Trending</p></a>
+            <a href="song.html"><p>Top Song</p></a>
+            <a href="album.html"><p>Top Albums</p></a>
+            <!-- <a href="#"><p>Playlists</p></a> -->
+            <a href="#"><p>Following</p></a>
+          </div>
+          <hr />
+          <div class="dashboard">
+            <a href="#"><h3>Dashboard</h3></a>
+            <a href="#"><p>Messages</p></a>
+            <a href="#"><p>Connection</p></a>
+            <a href="#"><p>Integration</p></a>
+            <a href="#"><p>Account Settings</p></a>
+            <a href="#"><p>App settings</p></a>
+          </div>
+          <br />
+          <p class="copyright">&copy;2022 Tijesus_Charis</p>
+          <!-- <br /> -->
+          <div class="back_up">
+            <a href="#top"
+              ><img src="./Up Arrow.svg" alt="top arrow" />
+              <p>Back to top</p></a
+            >
+          </div>
         </div>
       </div>
       <div class="content">
@@ -72,35 +73,133 @@
               <button><img src="./arrow-right.svg" alt="arrow-right" /></button>
             </div>
           </div>
-          <!-------Music list section-------->
-          <div class="music_list">
-            <div class="song_cat">
-              <a href="bandana.html"
-                ><img src="./songs/bandana.jpg" alt="bandana"
-              /></a>
-              <div class="artist_flex">
-                <div>
-                  <h4>Bandana</h4>
-                  <p>by <span>Fireboy</span> <i>ft</i> <span>Asake</span></p>
-                </div>
-                <div>
-                  <button class="hidden_on_mobile">
-                    <span class="iconify" data-icon="charm:download"></span>
-                  </button>
-                  <button class="hidden_on_mobile">
-                    <span class="iconify" data-icon="iwwa:option"></span>
-                  </button>
-                </div>
-              </div>
-            </div>
-            <div class="song_cat">
-              <a href=""><img src="./songs/buga.jpg" alt="buga" /></a>
-              <div class="artist_flex">
+          <div class="music_parent">
+            <!-------Music list section-------->
+            <div class="music_list">
+              <div class="song_cat">
+                <a href="bandana.html"
+                  ><img src="./songs/bandana.jpg" alt="bandana"
+                /></a>
                 <div class="artist_flex">
                   <div>
-                    <h4>Buga</h4>
+                    <h4>Bandana</h4>
+                    <p>by <span>Fireboy</span> <i>ft</i> <span>Asake</span></p>
+                  </div>
+                  <div>
+                    <button class="hidden_on_mobile">
+                      <span class="iconify" data-icon="charm:download"></span>
+                    </button>
+                    <button class="hidden_on_mobile">
+                      <span class="iconify" data-icon="iwwa:option"></span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="song_cat">
+                <a href=""><img src="./songs/buga.jpg" alt="buga" /></a>
+                <div class="artist_flex">
+                  <div class="artist_flex">
+                    <div>
+                      <h4>Buga</h4>
+                      <p>
+                        by <span>Kiss Daniel</span> <i>ft</i> <span>Phyno</span>
+                      </p>
+                    </div>
+                    <div>
+                      <button class="hidden_on_mobile">
+                        <span class="iconify" data-icon="charm:download"></span>
+                      </button>
+                      <button class="hidden_on_mobile">
+                        <span class="iconify" data-icon="iwwa:option"></span>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="song_cat">
+                <a href=""><img src="./songs/dada.jpg" alt="dada" /></a>
+                <div class="artist_flex">
+                  <div>
+                    <h4>Dada</h4>
                     <p>
-                      by <span>Kiss Daniel</span> <i>ft</i> <span>Phyno</span>
+                      by <span>Young John</span> <i>ft</i> <span>Davido</span>
+                    </p>
+                  </div>
+                  <div>
+                    <div>
+                      <button class="hidden_on_mobile">
+                        <span class="iconify" data-icon="charm:download"></span>
+                      </button>
+                      <button class="hidden_on_mobile">
+                        <span class="iconify" data-icon="iwwa:option"></span>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="song_cat">
+                <a href=""><img src="./songs/labalaba.jpg" alt="labalaba" /></a>
+                <div class="artist_flex">
+                  <div>
+                    <h4>Ijo (Laba Laba)</h4>
+                    <p>by <span>Crayon</span></p>
+                  </div>
+                  <div>
+                    <div>
+                      <button class="hidden_on_mobile">
+                        <span class="iconify" data-icon="charm:download"></span>
+                      </button>
+                      <button class="hidden_on_mobile">
+                        <span class="iconify" data-icon="iwwa:option"></span>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="song_cat">
+                <a href=""
+                  ><img src="./songs/lovedamini.jpg" alt="lovedamini"
+                /></a>
+                <div class="artist_flex">
+                  <div>
+                    <h4>It's Plenty</h4>
+                    <p>by <span>Burnaboy</span></p>
+                  </div>
+                  <div>
+                    <button class="hidden_on_mobile">
+                      <span class="iconify" data-icon="charm:download"></span>
+                    </button>
+                    <button class="hidden_on_mobile">
+                      <span class="iconify" data-icon="iwwa:option"></span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="song_cat">
+                <a href=""><img src="./songs/woman.jpg" alt="boyalone" /></a>
+                <div class="artist_flex">
+                  <div>
+                    <h4>Woman</h4>
+                    <p>by <span>Omalay</span></p>
+                  </div>
+                  <div>
+                    <button class="hidden_on_mobile">
+                      <span class="iconify" data-icon="charm:download"></span>
+                    </button>
+                    <button class="hidden_on_mobile">
+                      <span class="iconify" data-icon="iwwa:option"></span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="song_cat">
+                <a href=""><img src="./songs/overdose.jpg" alt="overdose" /></a>
+                <div class="artist_flex">
+                  <div>
+                    <h4>Overdose</h4>
+                    <p>
+                      by <span>Ladipoe</span> <i>ft</i> <span>Ayra Star</span>
+                      <i>...</i>
                     </p>
                   </div>
                   <div>
@@ -113,17 +212,34 @@
                   </div>
                 </div>
               </div>
-            </div>
-            <div class="song_cat">
-              <a href=""><img src="./songs/dada.jpg" alt="dada" /></a>
-              <div class="artist_flex">
-                <div>
-                  <h4>Dada</h4>
-                  <p>
-                    by <span>Young John</span> <i>ft</i> <span>Davido</span>
-                  </p>
+              <div class="song_cat">
+                <a href=""><img src="./songs/palazzo.jpg" alt="palazzo" /></a>
+                <div class="artist_flex">
+                  <div>
+                    <h4>Palazzo</h4>
+                    <p>
+                      by <span>Dj Spinoff</span> <i>ft</i> <span>Asake</span>
+                    </p>
+                  </div>
+                  <div>
+                    <div>
+                      <button class="hidden_on_mobile">
+                        <span class="iconify" data-icon="charm:download"></span>
+                      </button>
+                      <button class="hidden_on_mobile">
+                        <span class="iconify" data-icon="iwwa:option"></span>
+                      </button>
+                    </div>
+                  </div>
                 </div>
-                <div>
+              </div>
+              <div class="song_cat">
+                <a href=""><img src="./songs/pbuy.jpg" alt="pbuy" /></a>
+                <div class="artist_flex">
+                  <div>
+                    <h4>Peace Be Unto You</h4>
+                    <p>by <span>Asake</span></p>
+                  </div>
                   <div>
                     <button class="hidden_on_mobile">
                       <span class="iconify" data-icon="charm:download"></span>
@@ -132,117 +248,6 @@
                       <span class="iconify" data-icon="iwwa:option"></span>
                     </button>
                   </div>
-                </div>
-              </div>
-            </div>
-            <div class="song_cat">
-              <a href=""><img src="./songs/labalaba.jpg" alt="labalaba" /></a>
-              <div class="artist_flex">
-                <div>
-                  <h4>Ijo (Laba Laba)</h4>
-                  <p>by <span>Crayon</span></p>
-                </div>
-                <div>
-                  <div>
-                    <button class="hidden_on_mobile">
-                      <span class="iconify" data-icon="charm:download"></span>
-                    </button>
-                    <button class="hidden_on_mobile">
-                      <span class="iconify" data-icon="iwwa:option"></span>
-                    </button>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="song_cat">
-              <a href=""
-                ><img src="./songs/lovedamini.jpg" alt="lovedamini"
-              /></a>
-              <div class="artist_flex">
-                <div>
-                  <h4>It's Plenty</h4>
-                  <p>by <span>Burnaboy</span></p>
-                </div>
-                <div>
-                  <button class="hidden_on_mobile">
-                    <span class="iconify" data-icon="charm:download"></span>
-                  </button>
-                  <button class="hidden_on_mobile">
-                    <span class="iconify" data-icon="iwwa:option"></span>
-                  </button>
-                </div>
-              </div>
-            </div>
-            <div class="song_cat">
-              <a href=""><img src="./songs/woman.jpg" alt="boyalone" /></a>
-              <div class="artist_flex">
-                <div>
-                  <h4>Woman</h4>
-                  <p>by <span>Omalay</span></p>
-                </div>
-                <div>
-                  <button class="hidden_on_mobile">
-                    <span class="iconify" data-icon="charm:download"></span>
-                  </button>
-                  <button class="hidden_on_mobile">
-                    <span class="iconify" data-icon="iwwa:option"></span>
-                  </button>
-                </div>
-              </div>
-            </div>
-            <div class="song_cat">
-              <a href=""><img src="./songs/overdose.jpg" alt="overdose" /></a>
-              <div class="artist_flex">
-                <div>
-                  <h4>Overdose</h4>
-                  <p>
-                    by <span>Ladipoe</span> <i>ft</i> <span>Ayra Star</span>
-                    <i>...</i>
-                  </p>
-                </div>
-                <div>
-                  <button class="hidden_on_mobile">
-                    <span class="iconify" data-icon="charm:download"></span>
-                  </button>
-                  <button class="hidden_on_mobile">
-                    <span class="iconify" data-icon="iwwa:option"></span>
-                  </button>
-                </div>
-              </div>
-            </div>
-            <div class="song_cat">
-              <a href=""><img src="./songs/palazzo.jpg" alt="palazzo" /></a>
-              <div class="artist_flex">
-                <div>
-                  <h4>Palazzo</h4>
-                  <p>by <span>Dj Spinoff</span> <i>ft</i> <span>Asake</span></p>
-                </div>
-                <div>
-                  <div>
-                    <button class="hidden_on_mobile">
-                      <span class="iconify" data-icon="charm:download"></span>
-                    </button>
-                    <button class="hidden_on_mobile">
-                      <span class="iconify" data-icon="iwwa:option"></span>
-                    </button>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="song_cat">
-              <a href=""><img src="./songs/pbuy.jpg" alt="pbuy" /></a>
-              <div class="artist_flex">
-                <div>
-                  <h4>Peace Be Unto You</h4>
-                  <p>by <span>Asake</span></p>
-                </div>
-                <div>
-                  <button class="hidden_on_mobile">
-                    <span class="iconify" data-icon="charm:download"></span>
-                  </button>
-                  <button class="hidden_on_mobile">
-                    <span class="iconify" data-icon="iwwa:option"></span>
-                  </button>
                 </div>
               </div>
             </div>
@@ -256,14 +261,211 @@
               <button><img src="./arrow-right.svg" alt="arrow-right" /></button>
             </div>
           </div>
-          <!-------Trending list section-------->
+          <div class="music_parent">
+            <!-------Trending list section-------->
+            <div class="music_list">
+              <div class="song_cat">
+                <a href=""><img src="./songs/woman.jpg" alt="boyalone" /></a>
+                <div class="artist_flex">
+                  <div>
+                    <h4>Woman</h4>
+                    <p>by <span>Omalay</span> <i>ft</i> <span>Asake</span></p>
+                  </div>
+                  <div>
+                    <div>
+                      <button class="hidden_on_mobile">
+                        <span class="iconify" data-icon="charm:download"></span>
+                      </button>
+                      <button class="hidden_on_mobile">
+                        <span class="iconify" data-icon="iwwa:option"></span>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="song_cat">
+                <a href=""><img src="./songs/pbuy.jpg" alt="pbuy" /></a>
+                <div class="artist_flex">
+                  <div>
+                    <h4>Peace Be Unto You</h4>
+                    <p>by <span>Asake</span></p>
+                  </div>
+                  <div>
+                    <div>
+                      <button class="hidden_on_mobile">
+                        <span class="iconify" data-icon="charm:download"></span>
+                      </button>
+                      <button class="hidden_on_mobile">
+                        <span class="iconify" data-icon="iwwa:option"></span>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="song_cat">
+                <a href=""><img src="./songs/palazzo.jpg" alt="palazzo" /></a>
+                <div class="artist_flex">
+                  <div>
+                    <h4>Palazzo</h4>
+                    <p>
+                      by <span>Dj Spinoff</span> <i>ft</i> <span>Asake</span>
+                    </p>
+                  </div>
+                  <div>
+                    <div>
+                      <button class="hidden_on_mobile">
+                        <span class="iconify" data-icon="charm:download"></span>
+                      </button>
+                      <button class="hidden_on_mobile">
+                        <span class="iconify" data-icon="iwwa:option"></span>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="song_cat">
+                <a href=""><img src="./songs/overdose.jpg" alt="overdose" /></a>
+                <div class="artist_flex">
+                  <div>
+                    <h4>Overdose</h4>
+                    <p>
+                      by <span>Ladipoe</span> <i>ft</i> <span>Ayra Star</span>
+                      <i>...</i>
+                    </p>
+                  </div>
+                  <div>
+                    <div>
+                      <button class="hidden_on_mobile">
+                        <span class="iconify" data-icon="charm:download"></span>
+                      </button>
+                      <button class="hidden_on_mobile">
+                        <span class="iconify" data-icon="iwwa:option"></span>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="song_cat">
+                <a href=""><img src="./songs/buga.jpg" alt="buga" /></a>
+                <div class="artist_flex">
+                  <div>
+                    <h4>Buga</h4>
+                    <p>
+                      by <span>Kiss Daniel</span> <i>ft</i> <span>Phyno</span>
+                    </p>
+                  </div>
+                  <div>
+                    <div>
+                      <button class="hidden_on_mobile">
+                        <span class="iconify" data-icon="charm:download"></span>
+                      </button>
+                      <button class="hidden_on_mobile">
+                        <span class="iconify" data-icon="iwwa:option"></span>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="song_cat">
+                <a href=""><img src="./songs/bandana.jpg" alt="bandana" /></a>
+                <div class="artist_flex">
+                  <div>
+                    <h4>Bandana</h4>
+                    <p>by <span>Fireboy</span> <i>ft</i> <span>Asake</span></p>
+                  </div>
+                  <div>
+                    <div>
+                      <button class="hidden_on_mobile">
+                        <span class="iconify" data-icon="charm:download"></span>
+                      </button>
+                      <button class="hidden_on_mobile">
+                        <span class="iconify" data-icon="iwwa:option"></span>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="song_cat">
+                <a href=""><img src="./songs/dada.jpg" alt="dada" /></a>
+                <div class="artist_flex">
+                  <div>
+                    <h4>Dada</h4>
+                    <p>
+                      by <span>Young John</span> <i>ft</i> <span>Davido</span>
+                    </p>
+                  </div>
+                  <div>
+                    <div>
+                      <button class="hidden_on_mobile">
+                        <span class="iconify" data-icon="charm:download"></span>
+                      </button>
+                      <button class="hidden_on_mobile">
+                        <span class="iconify" data-icon="iwwa:option"></span>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="song_cat">
+                <a href=""><img src="./songs/labalaba.jpg" alt="labalaba" /></a>
+                <div class="artist_flex">
+                  <div>
+                    <h4>Ijo (Laba Laba)</h4>
+                    <p>by <span>Crayon</span></p>
+                  </div>
+                  <div>
+                    <div>
+                      <button class="hidden_on_mobile">
+                        <span class="iconify" data-icon="charm:download"></span>
+                      </button>
+                      <button class="hidden_on_mobile">
+                        <span class="iconify" data-icon="iwwa:option"></span>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="song_cat">
+                <a href=""
+                  ><img src="./songs/lovedamini.jpg" alt="lovedamini"
+                /></a>
+                <div class="artist_flex">
+                  <div>
+                    <h4>It's Plenty</h4>
+                    <p>by <span>Burnaboy</span></p>
+                  </div>
+                  <div>
+                    <button class="hidden_on_mobile">
+                      <span class="iconify" data-icon="charm:download"></span>
+                    </button>
+                    <button class="hidden_on_mobile">
+                      <span class="iconify" data-icon="iwwa:option"></span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!------------Album section--------------->
+        <div class="music">
+          <h3>Album</h3>
+          <div>
+            <button><img src="./arrow-left.svg" alt="arrow-left" /></button>
+            <button><img src="./arrow-right.svg" alt="arrow-right" /></button>
+          </div>
+        </div>
+        <div class="music_parent">
+          <!-------Album list section-------->
           <div class="music_list">
             <div class="song_cat">
-              <a href=""><img src="./songs/woman.jpg" alt="boyalone" /></a>
+              <a href="boyalone.html"
+                ><img src="./songs/boyalone.jpg" alt="boyalone"
+              /></a>
               <div class="artist_flex">
                 <div>
-                  <h4>Woman</h4>
-                  <p>by <span>Omalay</span> <i>ft</i> <span>Asake</span></p>
+                  <h4>Boy Alone</h4>
+                  <p>by <span>Omalay</span></p>
                 </div>
                 <div>
                   <div>
@@ -278,40 +480,21 @@
               </div>
             </div>
             <div class="song_cat">
-              <a href=""><img src="./songs/pbuy.jpg" alt="pbuy" /></a>
+              <a href=""
+                ><img src="./songs/lovedamini.jpg" alt="lovedamini"
+              /></a>
               <div class="artist_flex">
                 <div>
-                  <h4>Peace Be Unto You</h4>
-                  <p>by <span>Asake</span></p>
+                  <h4>It's Plenty</h4>
+                  <p>by <span>Burnaboy</span></p>
                 </div>
                 <div>
-                  <div>
-                    <button class="hidden_on_mobile">
-                      <span class="iconify" data-icon="charm:download"></span>
-                    </button>
-                    <button class="hidden_on_mobile">
-                      <span class="iconify" data-icon="iwwa:option"></span>
-                    </button>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="song_cat">
-              <a href=""><img src="./songs/palazzo.jpg" alt="palazzo" /></a>
-              <div class="artist_flex">
-                <div>
-                  <h4>Palazzo</h4>
-                  <p>by <span>Dj Spinoff</span> <i>ft</i> <span>Asake</span></p>
-                </div>
-                <div>
-                  <div>
-                    <button class="hidden_on_mobile">
-                      <span class="iconify" data-icon="charm:download"></span>
-                    </button>
-                    <button class="hidden_on_mobile">
-                      <span class="iconify" data-icon="iwwa:option"></span>
-                    </button>
-                  </div>
+                  <button class="hidden_on_mobile">
+                    <span class="iconify" data-icon="charm:download"></span>
+                  </button>
+                  <button class="hidden_on_mobile">
+                    <span class="iconify" data-icon="iwwa:option"></span>
+                  </button>
                 </div>
               </div>
             </div>
@@ -338,6 +521,25 @@
               </div>
             </div>
             <div class="song_cat">
+              <a href=""
+                ><img src="./songs/twice as tall.jpeg" alt="twice as tall"
+              /></a>
+              <div class="artist_flex">
+                <div>
+                  <h4>Twice as tall</h4>
+                  <p>by <span>Burnaboy</span></p>
+                </div>
+                <div>
+                  <button class="hidden_on_mobile">
+                    <span class="iconify" data-icon="charm:download"></span>
+                  </button>
+                  <button class="hidden_on_mobile">
+                    <span class="iconify" data-icon="iwwa:option"></span>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="song_cat">
               <a href=""><img src="./songs/buga.jpg" alt="buga" /></a>
               <div class="artist_flex">
                 <div>
@@ -347,33 +549,12 @@
                   </p>
                 </div>
                 <div>
-                  <div>
-                    <button class="hidden_on_mobile">
-                      <span class="iconify" data-icon="charm:download"></span>
-                    </button>
-                    <button class="hidden_on_mobile">
-                      <span class="iconify" data-icon="iwwa:option"></span>
-                    </button>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="song_cat">
-              <a href=""><img src="./songs/bandana.jpg" alt="bandana" /></a>
-              <div class="artist_flex">
-                <div>
-                  <h4>Bandana</h4>
-                  <p>by <span>Fireboy</span> <i>ft</i> <span>Asake</span></p>
-                </div>
-                <div>
-                  <div>
-                    <button class="hidden_on_mobile">
-                      <span class="iconify" data-icon="charm:download"></span>
-                    </button>
-                    <button class="hidden_on_mobile">
-                      <span class="iconify" data-icon="iwwa:option"></span>
-                    </button>
-                  </div>
+                  <button class="hidden_on_mobile">
+                    <span class="iconify" data-icon="charm:download"></span>
+                  </button>
+                  <button class="hidden_on_mobile">
+                    <span class="iconify" data-icon="iwwa:option"></span>
+                  </button>
                 </div>
               </div>
             </div>
@@ -418,13 +599,11 @@
               </div>
             </div>
             <div class="song_cat">
-              <a href=""
-                ><img src="./songs/lovedamini.jpg" alt="lovedamini"
-              /></a>
+              <a href=""><img src="./songs/palazzo.jpg" alt="palazzo" /></a>
               <div class="artist_flex">
                 <div>
-                  <h4>It's Plenty</h4>
-                  <p>by <span>Burnaboy</span></p>
+                  <h4>Palazzo</h4>
+                  <p>by <span>Dj Spinoff</span> <i>ft</i> <span>Asake</span></p>
                 </div>
                 <div>
                   <button class="hidden_on_mobile">
@@ -436,184 +615,22 @@
                 </div>
               </div>
             </div>
-          </div>
-        </div>
-        <!------------Album section--------------->
-        <div class="music">
-          <h3>Album</h3>
-          <div>
-            <button><img src="./arrow-left.svg" alt="arrow-left" /></button>
-            <button><img src="./arrow-right.svg" alt="arrow-right" /></button>
-          </div>
-        </div>
-        <!-------Album list section-------->
-        <div class="music_list">
-          <div class="song_cat">
-            <a href="boyalone.html"
-              ><img src="./songs/boyalone.jpg" alt="boyalone"
-            /></a>
-            <div class="artist_flex">
-              <div>
-                <h4>Boy Alone</h4>
-                <p>by <span>Omalay</span></p>
-              </div>
-              <div>
+            <div class="song_cat">
+              <a href=""><img src="./songs/pbuy.jpg" alt="pbuy" /></a>
+              <div class="artist_flex">
                 <div>
-                  <button class="hidden_on_mobile">
-                    <span class="iconify" data-icon="charm:download"></span>
-                  </button>
-                  <button class="hidden_on_mobile">
-                    <span class="iconify" data-icon="iwwa:option"></span>
-                  </button>
+                  <h4>Peace Be Unto You</h4>
+                  <p>by <span>Asake</span></p>
                 </div>
-              </div>
-            </div>
-          </div>
-          <div class="song_cat">
-            <a href=""><img src="./songs/lovedamini.jpg" alt="lovedamini" /></a>
-            <div class="artist_flex">
-              <div>
-                <h4>It's Plenty</h4>
-                <p>by <span>Burnaboy</span></p>
-              </div>
-              <div>
-                <button class="hidden_on_mobile">
-                  <span class="iconify" data-icon="charm:download"></span>
-                </button>
-                <button class="hidden_on_mobile">
-                  <span class="iconify" data-icon="iwwa:option"></span>
-                </button>
-              </div>
-            </div>
-          </div>
-          <div class="song_cat">
-            <a href=""><img src="./songs/overdose.jpg" alt="overdose" /></a>
-            <div class="artist_flex">
-              <div>
-                <h4>Overdose</h4>
-                <p>
-                  by <span>Ladipoe</span> <i>ft</i> <span>Ayra Star</span>
-                  <i>...</i>
-                </p>
-              </div>
-              <div>
                 <div>
-                  <button class="hidden_on_mobile">
-                    <span class="iconify" data-icon="charm:download"></span>
-                  </button>
-                  <button class="hidden_on_mobile">
-                    <span class="iconify" data-icon="iwwa:option"></span>
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="song_cat">
-            <a href=""
-              ><img src="./songs/twice as tall.jpeg" alt="twice as tall"
-            /></a>
-            <div class="artist_flex">
-              <div>
-                <h4>Twice as tall</h4>
-                <p>by <span>Burnaboy</span></p>
-              </div>
-              <div>
-                <button class="hidden_on_mobile">
-                  <span class="iconify" data-icon="charm:download"></span>
-                </button>
-                <button class="hidden_on_mobile">
-                  <span class="iconify" data-icon="iwwa:option"></span>
-                </button>
-              </div>
-            </div>
-          </div>
-          <div class="song_cat">
-            <a href=""><img src="./songs/buga.jpg" alt="buga" /></a>
-            <div class="artist_flex">
-              <div>
-                <h4>Buga</h4>
-                <p>by <span>Kiss Daniel</span> <i>ft</i> <span>Phyno</span></p>
-              </div>
-              <div>
-                <button class="hidden_on_mobile">
-                  <span class="iconify" data-icon="charm:download"></span>
-                </button>
-                <button class="hidden_on_mobile">
-                  <span class="iconify" data-icon="iwwa:option"></span>
-                </button>
-              </div>
-            </div>
-          </div>
-          <div class="song_cat">
-            <a href=""><img src="./songs/dada.jpg" alt="dada" /></a>
-            <div class="artist_flex">
-              <div>
-                <h4>Dada</h4>
-                <p>by <span>Young John</span> <i>ft</i> <span>Davido</span></p>
-              </div>
-              <div>
-                <div>
-                  <button class="hidden_on_mobile">
-                    <span class="iconify" data-icon="charm:download"></span>
-                  </button>
-                  <button class="hidden_on_mobile">
-                    <span class="iconify" data-icon="iwwa:option"></span>
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="song_cat">
-            <a href=""><img src="./songs/labalaba.jpg" alt="labalaba" /></a>
-            <div class="artist_flex">
-              <div>
-                <h4>Ijo (Laba Laba)</h4>
-                <p>by <span>Crayon</span></p>
-              </div>
-              <div>
-                <div>
-                  <button class="hidden_on_mobile">
-                    <span class="iconify" data-icon="charm:download"></span>
-                  </button>
-                  <button class="hidden_on_mobile">
-                    <span class="iconify" data-icon="iwwa:option"></span>
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="song_cat">
-            <a href=""><img src="./songs/palazzo.jpg" alt="palazzo" /></a>
-            <div class="artist_flex">
-              <div>
-                <h4>Palazzo</h4>
-                <p>by <span>Dj Spinoff</span> <i>ft</i> <span>Asake</span></p>
-              </div>
-              <div>
-                <button class="hidden_on_mobile">
-                  <span class="iconify" data-icon="charm:download"></span>
-                </button>
-                <button class="hidden_on_mobile">
-                  <span class="iconify" data-icon="iwwa:option"></span>
-                </button>
-              </div>
-            </div>
-          </div>
-          <div class="song_cat">
-            <a href=""><img src="./songs/pbuy.jpg" alt="pbuy" /></a>
-            <div class="artist_flex">
-              <div>
-                <h4>Peace Be Unto You</h4>
-                <p>by <span>Asake</span></p>
-              </div>
-              <div>
-                <div>
-                  <button class="hidden_on_mobile">
-                    <span class="iconify" data-icon="charm:download"></span>
-                  </button>
-                  <button class="hidden_on_mobile">
-                    <span class="iconify" data-icon="iwwa:option"></span>
-                  </button>
+                  <div>
+                    <button class="hidden_on_mobile">
+                      <span class="iconify" data-icon="charm:download"></span>
+                    </button>
+                    <button class="hidden_on_mobile">
+                      <span class="iconify" data-icon="iwwa:option"></span>
+                    </button>
+                  </div>
                 </div>
               </div>
             </div>
@@ -621,6 +638,27 @@
         </div>
       </div>
     </main>
+    <!-- <footer class="hidden_on_desktop">
+      <a href="">
+        <p style="background-color: red; height: 100px">
+          <span
+            class="iconify"
+            data-icon="ic:baseline-photo-album"
+            style="
+              background-color: rgb(72, 54, 173);
+              height: 100px;
+              color: aliceblue;
+            "
+          ></span></p
+      ></a>
+      <a href="index.html"
+        ><span class="iconify" data-icon="ant-design:home-filled"></span
+      ></a>
+      <a href="song.html"
+        ><span class="iconify" data-icon="ic:baseline-playlist-add-check"></span
+      ></a>
+      <!-- <span class="iconify" data-icon="charm:download"></span> -->
+    </footer>
     <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
   </body>
 </html>

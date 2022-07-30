@@ -167,11 +167,12 @@ header a {
 .music_list_wrap {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .music_list_wrap img {
   width: 200px;
-  margin-right: 28px;
+  /* margin-right: 28px; */
 }
 
 .music button {

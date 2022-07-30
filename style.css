@@ -7,6 +7,7 @@ body {
   margin: 0 auto;
   font-family: 'Poppins', sans-serif;
   box-sizing: border-box;
+  line-height: 15px;
 }
 
 main {
@@ -24,6 +25,7 @@ a{
 }
 .menu{
   margin-left: 30px;
+  line-height: 15px;
 }
 .menu p{
   color: azure;
@@ -40,6 +42,7 @@ hr{
 .dashboard{
   margin-left: 30px;
   color: azure;
+  line-height: 15px;
 }
 .dashboard p {
   color: azure;
@@ -51,12 +54,14 @@ hr{
 .copyright{
   margin-left: 30px;
   color: azure;
+  /* line-height: 15px; */
 }
 .back_up a{
   display: flex;
   margin-left: 30px;
   color: azure;
   align-items: center;
+  line-height: 15px;
 }
 .back_up p{
   color: azure;
@@ -75,11 +80,13 @@ hr{
   overflow: hidden;
   box-shadow: 0px 0px 60px #42ca16cb;
 }
+.sidebar_fixed{
+  position: fixed;
+}
 
 .content {
   width: 75%;
   padding: 20px 60px;
-  /* box-sizing: border-box; */
 }
 .content header {
   height: 70px;
@@ -145,7 +152,17 @@ header a {
 .music_list {
   display: flex;
 }
-
+.music_parent{
+  overflow: auto;
+  -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+}
+.music_parent::-webkit-scrollbar {
+  display: none;
+/* hide scrollbar for safari, opera,chrome */
+}
 .music_list img {
   width: 200px;
   margin-right: 10px;
@@ -273,7 +290,13 @@ span{
       padding: 7px;
       outline: none;
     }
-
+  .hidden_on_desktop .iconify{
+    display: flex;
+    background-color: #4827b0;
+    color: red;
+    width: 100px;
+    font-size: 30px;
+  } 
 
 }
 
